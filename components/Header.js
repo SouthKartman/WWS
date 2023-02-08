@@ -10,7 +10,7 @@ import{
 
 function Header () {
     return (
-        <div>
+        <div className="bg-[#1da1f2]">
             <div className="flex justify-between max-w-6xl">
 
             
@@ -29,9 +29,9 @@ function Header () {
              </div>
              
             {/* Middle search input field*/}
-            <div>
-                <div>
-                    {/* <SearchIcon className = "h-5 w-5"/> */}
+            <div className=" relative mt-1 p-3 rounded-md bg-red-500 ">
+                <div className="absolute inset-y-0 pl-3 flex items-center pointer-events-none">
+                    <SearchIcon className = "h-5 w-5 text-gray-500"/>
                 </div>
                 <input type="text" placeholder = 'Search'/>
             </div>

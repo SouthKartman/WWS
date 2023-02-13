@@ -1,8 +1,7 @@
 function Story({img, username}){
-    return 
-    (
+    return (
         <div>
-            <img src="{img}" alt="ava"/>
+            <img src="{img}" alt=""/>
             <p>{username}</p>
         </div>
     )

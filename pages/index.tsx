@@ -1,8 +1,10 @@
 import type { NextPage } from 'next';
 import Header from "../components/Header";
 import Feed from "../components/Feed";
-import Head from 'next/head'
+import Head from 'next/head';
+import hello from "../components/Hello";
 import Image from 'next/image'
+import Hello from '../components/Hello';
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +22,7 @@ const Home: NextPage = () => {
       {/* Feed */}
       <Feed/>
       {/* Model */}
-
+      <Hello></Hello>
 
     </div>
   )

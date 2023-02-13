@@ -23,6 +23,7 @@ const Home: NextPage = () => {
       <Feed/>
       {/* Model */}
       <Hello></Hello>
+      <h1>debil</h1>
 
     </div>
   )

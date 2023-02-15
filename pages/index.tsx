@@ -22,7 +22,7 @@ const Home: NextPage = () => {
      
       {/* Feed */}
       <Feed/>
-      <MiniProfile/>
+      {/* <MiniProfile/> */}
       {/* Model */}
       {/* <Hello></Hello> */}
       

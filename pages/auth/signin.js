@@ -1,20 +1,20 @@
-import {getProviders, signIn as 
-SignIntoProvider } from "next-auth/react";
+import {getProviders, signIn as SignIntoProvider } from "next-auth/react";
 
-function signIn({ providers }) {
+function signIn({ providers }){
     return (
         <>
-        {Object.values(providers).map((provider) =>(
-            <div key={provider.name}>
-                <button onClick={() => 
-                SignIntoProvider(provider.id)}>
-                Sign in with {provider.name}
+        {Object.values(providers).map((provider) => (
+        
+        <div key={provider.name}>
+            <button onClick={() =>
+            SignIntoProvider (provider.id)}>
+              Sign in with {provider.name}
             </button>
-        </div>
-      ))}
-    </>
+          </div>
+        ))}
+      </>
     );
-
+    
 }
 
 // server

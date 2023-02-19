@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <div className="">
       <Head>
-        <title>WorlWorkSocial by Social</title>
+        <title>WorlWorkSocial by Social</title> 
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -23,11 +23,10 @@ const Home: NextPage = () => {
      
       {/* Feed */}
       <Feed/>
-      <Modal/>
+      
       {/* <MiniProfile/> */}
       {/* Model */}
       {/* <Hello></Hello> */}
-      
 
     </div>
   )

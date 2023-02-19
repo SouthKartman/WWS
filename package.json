@@ -13,6 +13,7 @@
     "next": "^13.1.6",
     "next-auth": "^4.19.2",
     "react": "18.2.0",
+    "react-atomic-atom": "^3.0.4",
     "react-dom": "18.2.0",
     "recoil": "^0.7.6"
   },
